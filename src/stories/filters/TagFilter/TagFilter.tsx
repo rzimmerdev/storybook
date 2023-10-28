@@ -19,7 +19,7 @@ interface TagFilterProps {
 }
 
 /**
- * TagFilter, a component that allows the user to filter tags and select them
+ * TagFilter, a component that allows the user to filter tags and selectors them
  * @param placeholder
  * @param availableTags
  * @param fixedTags
