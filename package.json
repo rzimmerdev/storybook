@@ -1,6 +1,6 @@
 {
-  "name": "storybook",
-  "private": true,
+  "name": "rzimmerdev-storybook",
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -16,6 +16,7 @@
     "plotly.js": "^2.27.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-plotly.js": "^2.6.0"
   },
   "devDependencies": {
@@ -36,6 +37,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-storybook": "^0.6.15",
+    "sass": "^1.69.5",
     "storybook": "^7.5.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
