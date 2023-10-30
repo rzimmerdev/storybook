@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import { TextFilter } from './TextFilter.tsx';
 
 const meta: Meta = {
-    title: 'Core/TextFilter',
+    title: 'Core/Filters/TextFilter',
     component: TextFilter,
     parameters: {
         layout: 'centered',

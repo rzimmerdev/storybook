@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { RadioFilter } from './RadioFilter';
+import { RadioFilter } from './RadioFilter.tsx';
 
 const meta: Meta = {
-    title: 'Core/RadioFilter',
+    title: 'Core/Filters/RadioFilter',
     component: RadioFilter,
 };
 

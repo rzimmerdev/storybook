@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import { TagFilter } from './TagFilter.tsx';
 
 const meta: Meta = {
-    title: 'Core/TagFilter',
+    title: 'Core/Filters/TagFilter',
     component: TagFilter,
     parameters: {
         layout: 'centered',
