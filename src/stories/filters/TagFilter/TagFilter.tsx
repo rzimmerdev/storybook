@@ -36,7 +36,7 @@ export const TagFilter = (
         uniqueTags = true,
         onTagsChange = () => {},
         backgroundColor = '#FFFFFF'
-    }: TagFilterProps
+    }: Partial<TagFilterProps>
 ) => {
     const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
     const [filterTags, setFilterTags] = React.useState(availableTags);
@@ -120,15 +120,6 @@ export const TagFilter = (
             setInput('');
         }
     }
-
-    // On input change:
-    // 1. Check if the input is a tag
-    // 2. If it is,
-    // 2. 1 if aditional tags allowed add it to the list of tags,
-    // 2. 2 else add if it is in the list of available tags
-    // 3. If it isn't, filter the list of tags and show only the ones that contain the input
-    // 4. If the input has commas, add the tags
-    // 5. If the input is empty, show all the tags
 
     return (
         <div className={styles['tag-filter']} style={{ backgroundColor: backgroundColor }}>
